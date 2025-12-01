@@ -1,0 +1,60 @@
+/* class selector */
+ * {
+     box-sizing: border-box;
+
+}
+
+.head{
+    h1{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 ~ p {
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+    }
+
+   background: linear-gradient(135deg,#6cc1ff 0%,#9be7ff 100%); padding: 19px; border-radius: 20px;
+   margin-left: 140px;
+   margin-right: 140px;
+   margin-top: 40px;
+   
+
+}
+
+#features{
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul > li {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    background: whitesmoke;  padding: 20px; border-radius: 12px; margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+    
+}
+
+.part {
+    background: whitesmoke;      /* Separate box inside same section */
+    padding: 20px;
+    margin-bottom: 0.5px;    /* Space between the two parts */
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(10,20,40,0.06);
+    margin-right: 50%;
+;
+    
+}
+
+.tf{
+     background: whitesmoke;      /* Separate box inside same section */
+    padding: 20px;
+    margin-bottom: 0.5px;    /* Space between the two parts */
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(10,20,40,0.06);
+    margin-right: 50%;
+}
