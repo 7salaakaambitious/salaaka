@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+/*top*/
+#red {
+    background-color: red;
+    height: 115px;
+}
+
+/*bottom*/
+#Green {
+    height: 115px;
+    background-color: green;
+}
+
+/*middle section*/
+.container {
+    display: flex;
+    height: 400px;
+}
+
+/*side bars*/
+#blue {
+    width: 100px;
+    background-color: blue;
+}
+
+#orange {
+    width: 100px;
+    background-color: orange;
+}
+
+/*center area*/
+.contain2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*top part of centre*/
+.contain3 {
+    display: flex;
+    flex: 1;
+}
+
+#green {
+    flex: 1;
+    background-color: green;
+}
+
+#yellow {
+    flex: 1;
+    background-color: yellow;
+}
+
+#black {
+    height: 90px;
+    background-color: black;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#red {
+    background-color: red;
+    height: 115px;
+}
+
+.container {
+    display: flex;
+}
+
+#magenta {
+    background-color: magenta;
+    height: 400px;
+    flex: 1;
+}
+
+#cyan {
+    background-color: cyan;
+    height: 400px;
+    flex: 1;
+}
+
+#blue{
+    background-color: blue;
+    height: 115px;
+}
